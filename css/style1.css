@@ -327,6 +327,9 @@ span {
 	min-height: auto;
 	padding-bottom: 5rem;
 }
+li{
+	font-size: 14px;
+}
 
 .experience .education-row {
 	display: flex;
@@ -478,8 +481,9 @@ span {
 	.navbar {
 		position: absolute;
 		top: 100%;
+		margin-left: 7%;
 		left: -100%;
-		width: 100%;
+		width: 85%;
 		padding: 1rem 4%;
 		background: var(--bg-color);
 		box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .2);
@@ -495,7 +499,7 @@ span {
 	.navbar a {
 		display: block;
 		font-size: 1.5rem;
-		margin: 0 30px;
+		margin: 0 0px;
 
 		align-content: center;
 	}
@@ -504,6 +508,10 @@ span {
 		pointer-events: none;
 		background: var(--bg-color);
 		opacity: .6;
+	}
+	.footer-iconTop{
+		margin: auto;
+		margin-bottom: 3px;
 	}
 
 
@@ -522,8 +530,8 @@ span {
 		position: absolute;
 		top: 100%;
 		left: -100%;
-		width: 100%;
-		padding: 1rem 4%;
+		width: 70%;
+		padding: 1rem 2%;
 		background: var(--bg-color);
 		box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .2);
 		transition: .25s ease;
@@ -537,8 +545,8 @@ span {
 
 	.navbar a {
 		display: block;
-		font-size: 2rem;
-		margin: 3rem 0;
+		font-size: 1rem;
+		margin: 2rem 0;
 	}
 
 	.home-imgHover {
