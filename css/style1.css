@@ -410,6 +410,7 @@ li{
 .progress{
 	border: 2px solid var(--main-bg-color);
 }
+
 .skills-box .skills-content{
 	position: relative;
 	border: .2rem solid var(--main-bg-color);
@@ -509,9 +510,18 @@ li{
 		background: var(--bg-color);
 		opacity: .6;
 	}
+
 	.footer-iconTop{
 		margin: auto;
 		margin-bottom: 3px;
+		margin-left: 40%;
+	}
+	.footer-text p{
+		font-size: 12px;
+		margin-left: 10%;
+	}
+	.footer{
+		display: block;
 	}
 
 
